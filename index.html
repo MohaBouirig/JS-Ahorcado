@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Ahorcado</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>El ahorcado</h1>
+    <p id="inputErroneo"></p>
+    <p id="estadoPartida" ><strong></strong></p>
+    <p id="parrafo">Introduce una letra</p>
+    <p id="mostrarPalabraHtml"></p>
+    <p id="mostrarLetrasIntroducidas"></p>
+    <input type="text" name="letra" id="letra" /> 
+    <br><br>
+    <p id="mostrarPalabrasAcertadas"></p>
+    <p id="mostrarPartidasAbandonadas"></p>
+    <p id="mostrarPartidasPerdidas"></p>
+    <br><br>
+    <img id="imagenAplicacion" src="/imagenes/inicio_por_defecto.png" width="180" height="180">
+    <br>
+    <button onclick="iniciar()"> Iniciar partida</button>
+    <button onclick="introducirLetra()"> Introducir letra </button>
+    <button onclick="abandonarPartida()"> Abandonar partida </button>
+</body>
+</html>
